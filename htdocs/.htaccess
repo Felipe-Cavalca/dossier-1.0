@@ -1,0 +1,8 @@
+ErrorDocument 400 http://dossier.ml/erro.html
+ErrorDocument 401 http://dossier.ml/erro.html
+ErrorDocument 403 http://dossier.ml/erro.html
+ErrorDocument 404 http://dossier.ml/erro.html
+ErrorDocument 503 http://dossier.ml/erro.html
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone America/Sao_Paulo
